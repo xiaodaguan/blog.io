@@ -4,8 +4,9 @@ title: 依赖注入笔记
 date: 2017-05-15
 categories: blog
 tags: [依赖注入,控制反转,ioc,di]
-description: 
----﻿
+description: 依赖注入笔记
+---
+
 ##依赖
 Q: 什么是依赖？
 
