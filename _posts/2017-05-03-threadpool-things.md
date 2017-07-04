@@ -4,7 +4,7 @@ title: 线程池相关
 date: 2017-05-03
 categories: blog
 tags: [线程池,java]
-description: 
+description: 线程池相关学习
 ---
 
 ## ExecutorService
@@ -24,4 +24,3 @@ description:
 
 - .get() 阻塞当前线程，等待结果
 - .get(timeout,unit) 设置等待的时间，达到timeout之后，继续执行当前线程(并不会取消f那个线程的执行，依旧会存活下去)
-
