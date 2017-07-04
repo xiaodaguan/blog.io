@@ -1,13 +1,11 @@
 ---
 layout: post
-title: java 垃圾回收机制
-date: 2016-6-2
+title: java垃圾回收机制
+date: 2016-06-02
 categories: blog
-tags: [gc, java, jvm]
-description:  
-
+tags: [gc,java]
+description: 
 ---
-
 
 ## stop-the-world
 
