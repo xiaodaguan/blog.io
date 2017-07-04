@@ -1,13 +1,11 @@
 ---
 layout: post
 title: 依赖注入笔记
-date: 2017-5-15
+date: 2017-05-15
 categories: blog
-tags: 
+tags: [依赖注入,控制反转,ioc,di]
 description: 
 ---﻿
-
-
 ##依赖
 Q: 什么是依赖？
 
