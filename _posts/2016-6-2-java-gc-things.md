@@ -9,7 +9,7 @@ description:
 ---
 
 
-﻿## stop-the-world
+## stop-the-world
 
 任何一种gc算法均会调用stop-the-world，即暂停除gc需要以外的一切线程。gc优化很多时候就是要减少stop-the-world的发生
 
