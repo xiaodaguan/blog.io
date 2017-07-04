@@ -3,7 +3,7 @@ layout: post
 title: 手动安装mongodb
 date: 2017-4-26
 categories: blog
-tags: [mongodb,实战]
+tags: [mongodb, 实战]
 description: 
 ---
 

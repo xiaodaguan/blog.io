@@ -3,8 +3,9 @@ layout: post
 title: java 垃圾回收机制
 date: 2016-6-2
 categories: blog
-tags: [gc,java,jvm]
+tags: [gc, java, jvm]
 description:  
+
 ---
 
 
