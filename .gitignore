@@ -10,3 +10,4 @@ gen
 .gitignore
 .idea/
 xiaodaguan.github.io.iml
+node_modules/
