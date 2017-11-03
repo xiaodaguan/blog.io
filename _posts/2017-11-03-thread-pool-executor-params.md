@@ -6,7 +6,6 @@ categories: blog
 tags: [java,多线程]
 description:
 ---
-
 ## ThreadPoolExecutor 参数
 
 
@@ -94,3 +93,22 @@ this is runner{4}
 能被执行的线程数量为：maximumPooSize + workQueue.capacity (thread9被拒绝了)
 
 优先级顺序为：core > maximum - core > queue
+
+
+## 题外
+
+fixedThreadPool(1)与singleThreadPool()区别
+
+fixedThreadPool可以重新设置corePoolSize，singleThreadPool不能
+
+```
+    ExecutorService poolExecutor = Executors.newFixedThreadPool(1);
+    ExecutorService poolExecutor1 = Executors.newSingleThreadExecutor();
+    ((ThreadPoolExecutor)poolExecutor).setCorePoolSize(3);
+    ((ThreadPoolExecutor)poolExecutor1).setCorePoolSize(3);
+```
+
+```
+Exception in thread "main" java.lang.ClassCastException: java.util.concurrent.Executors$FinalizableDelegatedExecutorService cannot be cast to java.util.concurrent.ThreadPoolExecutor
+```
+    
