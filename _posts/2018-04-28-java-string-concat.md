@@ -1,4 +1,15 @@
-String 拼接那些事儿
+---
+layout: post
+title: String 拼接那些事儿
+date: 2018-04-28
+categories: blog
+tags: [java]
+description: 
+---
+
+
+
+# String 拼接那些事儿
 
 - StringBuffer 和StringBuilder
   - StringBuffer 的方法都是同步的
